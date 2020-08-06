@@ -7,3 +7,7 @@ git pull -p (https://git-scm.com/docs/git-pull)
 
 # what is in each release or pending releases
 git fetch origin && git log origin/master --oneline
+
+# download branch
+git checkout -b newlocalbranchname origin/branch-name
+git checkout -t origin/branch-name
