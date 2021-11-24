@@ -6,8 +6,10 @@
 ```pyenv install 3.9.9```
 
 # Set global default
-```pyenv global 3.9.9
-pyenv version```
+```
+pyenv global 3.9.9
+pyenv version
+```
 
 # Update path
 ```echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc```
