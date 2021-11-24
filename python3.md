@@ -1,3 +1,4 @@
+reference: https://opensource.com/article/19/5/python-3-default-mac
 
 # Install pyenv
 ```brew install pyenv```
@@ -16,9 +17,19 @@ pyenv version
 
 # Alias Python
 ```
+brew info python
 echo "alias python=/opt/homebrew/bin/python3" >> ~/.zshrc
 echo "alias python3=/opt/homebrew/bin/python3" >> ~/.zshrc
 ```
+# Update using Homebrew
+```brew update && brew upgrade python```
+
+# Alias Pip
+```
+echo "pip=/opt/homebrew/bin/pip3" >> ~/.zshrc
+echo "pip3=/opt/homebrew/bin/pip3" >> ~/.zshrc
+```
+
 
 #venv
 python3 -m venv env
