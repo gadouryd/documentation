@@ -11,3 +11,7 @@ git fetch origin && git log origin/master --oneline
 # download branch
 git checkout -b newlocalbranchname origin/branch-name
 git checkout -t origin/branch-name
+
+# sync to remote
+git commit -m "commit message"
+git push orgin master
