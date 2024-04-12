@@ -15,3 +15,9 @@ git checkout -t origin/branch-name
 # sync to remote
 git commit -m "commit message"
 git push orgin master
+
+# add upstream
+git remote add upstream git@github.com:original/repo.git
+
+# sync repos
+git fetch upstream
