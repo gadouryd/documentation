@@ -34,3 +34,8 @@ echo "pip3=/opt/homebrew/bin/pip3" >> ~/.zshrc
 #venv
 python3 -m venv env
 python -m venv env
+
+
+python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
