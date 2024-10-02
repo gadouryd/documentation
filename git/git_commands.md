@@ -1,5 +1,14 @@
-## check current branch
+# Branches
+
 git branch
+
+```
+git checkout -b <branch_name>
+``
+
+This is shorthand for:
+  $ git branch <branch_name>
+  $ git checkout <branch_name>
 
 ## sync local branch with remote branch
 git fetch --prune
